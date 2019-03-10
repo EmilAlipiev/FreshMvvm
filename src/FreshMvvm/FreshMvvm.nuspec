@@ -6,7 +6,7 @@
     <title>FreshMvvmStandard</title>
     <authors>Emil Alipiev</authors>
     <owners>EmilAlipiev</owners>
-    <projectUrl>https://github.com/rid00z/FreshMvvm</projectUrl>
+    <projectUrl>https://github.com/EmilAlipiev/FreshMvvm</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>FreshMvvmStandard extends and does some changes on Freshmvvm</description>    
     <tags>Mvvm, Xamarin.Forms, FreshMvvm</tags>
@@ -16,9 +16,16 @@
       FreshTabbedNavigationContainer extended with buttom toolbar for Android
 
     </releaseNotes>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Xamarin.Forms" version="3.4.0.1009999" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
   </metadata>
+ 
   <files>
-        <file src="bin/Release/Fresh*.*" target="lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10" />
-        <file src="bin/Release/Fresh*.*" target="lib\netstandard1.0" />
+        <!--<file src="bin/Release/Fresh*.*" target="lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10" />
+        <file src="bin/Release/Fresh*.*" target="lib\netstandard1.0" />-->
+       <file src="bin\Release\netstandard2.0\Fresh*.*" target="lib\netstandard20" />    
     </files>
 </package>

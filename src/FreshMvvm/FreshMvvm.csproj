@@ -4,7 +4,7 @@
     <AssemblyName>FreshMvvm</AssemblyName>
     <RootNamespace>FreshMvvm</RootNamespace>
     <AssemblyVersion>1.0.*</AssemblyVersion>
-    <Copyright>michaelridland</Copyright>
+    <Copyright>EmilAlipiev</Copyright>
     <Deterministic>false</Deterministic>
     <ReleaseVersion>2.2.0</ReleaseVersion>
   </PropertyGroup>
