@@ -10,11 +10,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Remove="backup-2019-01-17-093112\**" />
+    <Compile Remove="Extensions\**" />
     <EmbeddedResource Remove="backup-2019-01-17-093112\**" />
+    <EmbeddedResource Remove="Extensions\**" />
     <None Remove="backup-2019-01-17-093112\**" />
+    <None Remove="Extensions\**" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="System.Reactive" Version="4.0.0" />
     <PackageReference Include="Xamarin.Forms" Version="3.4.0.1009999" />
   </ItemGroup>
   
